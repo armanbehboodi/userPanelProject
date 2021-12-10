@@ -1,0 +1,13 @@
+.mainBox {
+    width: 80%;
+    min-height: 100vh;
+    float: left;
+    background-color: #e7f0ff;
+}
+
+@media screen and (max-width: 1000px) {
+    .mainBox {
+        width:fit-content;
+        overflow-x: hidden;
+    }
+}

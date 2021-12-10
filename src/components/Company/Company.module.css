@@ -1,0 +1,42 @@
+.mainBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+    margin: 0 20px 20px 0;
+    width: 235px;
+    height: 150px;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.mainBox:hover {
+    box-shadow: 6px 6px 16px 0 rgba(209,205,199,1),-6px -6px 16px 0 rgba(255,255,255,1);
+    background-color: #e7f0ff;
+    top: -10px;
+}
+.detailBox {
+    text-align: center;
+}
+.companyIcon {
+    width: 65px;
+}
+.companyName {
+    margin-top: 0;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 450px) {
+    .mainBox {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 310px){
+    .mainBox {
+        width: 170px;
+        height: 130px;
+    }
+}

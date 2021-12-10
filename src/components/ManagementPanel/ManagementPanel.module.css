@@ -1,0 +1,30 @@
+.mainBox {
+    width: 85%;
+    height: 10vh;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    padding-top: 10px;
+}
+.icon {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+.infoBox {
+    display: inline-block;
+    margin-right: 20px;
+}
+.panelText {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 0;
+}
+.matna {
+    font-size: 0.8em;
+    margin: 0;
+    text-align: end;
+}
+.hide {
+    display: none;
+}

@@ -1,0 +1,26 @@
+.mainBox {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    padding: 10px 0;
+    direction: ltr;
+    cursor: pointer;
+}
+.mainBox:hover,.active {
+    background-color: #e7f0ff;
+    border-right: 6px solid #0daca8;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 5%;
+}
+.optionText {
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-right: 15px;
+    text-align: end;
+}

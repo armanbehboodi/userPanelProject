@@ -1,0 +1,21 @@
+.mainBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 97%;
+    padding: 20px 3% 0 3%;
+    max-height: 60vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 30px;
+}
+.mainBox::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .mainBox {
+        width: 100%;
+        padding: 10px 0 0 0;
+    }
+}

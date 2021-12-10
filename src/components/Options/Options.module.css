@@ -1,0 +1,20 @@
+.mainBox {
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+    height: 85vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    direction: rtl;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+    border: 1px solid #dbdbdb;
+}
+::-webkit-scrollbar-thumb {
+    background: #cdcdcd;
+}
