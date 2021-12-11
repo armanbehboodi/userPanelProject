@@ -7,7 +7,8 @@
 
 @media screen and (max-width: 1000px) {
     .mainBox {
-        width:fit-content;
+        width: 100%;
+        min-width: fit-content;
         overflow-x: hidden;
     }
 }
